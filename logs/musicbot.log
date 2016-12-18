@@ -1,0 +1,68 @@
+[114.105224609] 2016-12-18 17:59:19,749 - INFO - launcher: Starting sanity checks
+[114.670515060] 2016-12-18 17:59:19,749 - INFO - launcher: Checking for python 3.5+
+[114.900112152] 2016-12-18 17:59:19,750 - INFO - launcher: Checking console encoding
+[115.117311478] 2016-12-18 17:59:19,750 - INFO - launcher: Ensuring we're in the right folder
+[116.081714630] 2016-12-18 17:59:19,751 - INFO - launcher: Checks passed.
+[116.600036621] 2016-12-18 17:59:19,751 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.4987940788269043] 2016-12-18 17:59:22,134 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 200 in _setup_logging: Set logging level to INFO
+[2.4990649223327637] 2016-12-18 17:59:22,134 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 77 in __init__: Loaded autoplaylist with 1 entries
+[2.500447035] launcher-INFO: Connecting
+[5.1544790267944336] 2016-12-18 17:59:24,789 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 990 in on_ready: Connection established, ready to go.
+[5.1552662849426270] 2016-12-18 17:59:24,790 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 311 in _cache_app_info: Caching app info
+[5.2551443576812744] 2016-12-18 17:59:24,890 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 807 in _scheck_ensure_env: Ensuring data folders exist
+[5.2595119476318359] 2016-12-18 17:59:24,894 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 823 in _scheck_server_permissions: Checking server permissions
+[5.2597689628601074] 2016-12-18 17:59:24,895 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 827 in _scheck_autoplaylist: Auditing autoplaylist
+[5.2600235939025879] 2016-12-18 17:59:24,895 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 831 in _scheck_configs: Validating config
+[5.2601971626281738] 2016-12-18 17:59:24,895 - DEBUG - musicbot.config | In config.py::MainThread(139979969156864), line 175 in async_validate: Validating options...
+[5.2603785991668701] 2016-12-18 17:59:24,895 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 834 in _scheck_configs: Validating permissions config
+[5.2605113983154297] 2016-12-18 17:59:24,895 - DEBUG - musicbot.permissions | In permissions.py::MainThread(139979969156864), line 59 in async_validate: Validating permissions...
+[5.2607457637786865] 2016-12-18 17:59:24,895 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1001 in on_ready: Connected!  Musicbot v1.9.6-review
+
+[5.2610933780670166] 2016-12-18 17:59:24,896 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1011 in on_ready: Bot:   258116983072096257/Phụng Đẹp Trai#8519 [BOT]
+[5.2613935470581055] 2016-12-18 17:59:24,896 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1019 in on_ready: Owner: 214758223389917184/Thiên Phụng#6822
+
+[5.2616434097290039] 2016-12-18 17:59:24,896 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1022 in on_ready: Server List:
+[5.2661111354827881] 2016-12-18 17:59:24,901 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1023 in <listcomp>:  - Fshare-VOZ OFF HN
+[5.2665886878967285] 2016-12-18 17:59:24,901 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1067 in on_ready: Not bound to any text channels
+[5.2669367790222168] 2016-12-18 17:59:24,902 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1080 in on_ready: Autojoining voice chanels:
+[5.2884697914123535] 2016-12-18 17:59:24,923 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1081 in <listcomp>:  - Fshare-VOZ OFF HN/Bot-NHẠC-Radio
+[5.2887113094329834] 2016-12-18 17:59:24,923 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1097 in on_ready: Options:
+[5.2889018058776855] 2016-12-18 17:59:24,924 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1099 in on_ready:   Command prefix: .
+[5.2890782356262207] 2016-12-18 17:59:24,924 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1100 in on_ready:   Default volume: 15%
+[5.2893028259277344] 2016-12-18 17:59:24,924 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1102 in on_ready:   Skip threshold: 4 votes or 50%
+[5.2894871234893799] 2016-12-18 17:59:24,924 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1103 in on_ready:   Now Playing @mentions: Disabled
+[5.2896873950958252] 2016-12-18 17:59:24,924 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1104 in on_ready:   Auto-Summon: Enabled
+[5.2919998168945312] 2016-12-18 17:59:24,927 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1105 in on_ready:   Auto-Playlist: Enabled
+[5.2922945022583008] 2016-12-18 17:59:24,927 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1106 in on_ready:   Auto-Pause: Disabled
+[5.2925393581390381] 2016-12-18 17:59:24,927 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1107 in on_ready:   Delete Messages: Enabled
+[5.2928028106689453] 2016-12-18 17:59:24,928 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1109 in on_ready:     Delete Invoking: Disabled
+[5.2930181026458740] 2016-12-18 17:59:24,928 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1110 in on_ready:   Debug Mode: Disabled
+[5.2932431697845459] 2016-12-18 17:59:24,928 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 1111 in on_ready:   Downloaded songs will be saved
+[5.2935442924499512] 2016-12-18 17:59:24,928 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 254 in _join_startup_channels: Attempting to join Fshare-VOZ OFF HN/Bot-NHẠC-Radio
+[5.2941114902496338] 2016-12-18 17:59:24,929 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 424 in get_voice_client: Connection attempt 1 to Bot-NHẠC-Radio
+[5.2942726612091064] 2016-12-18 17:59:24,929 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 363 in join_voice_channel: (join_voice_channel) creating futures
+[5.2947113513946533] 2016-12-18 17:59:24,929 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 369 in join_voice_channel: (join_voice_channel) setting voice state
+[5.2951297760009766] 2016-12-18 17:59:24,930 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 372 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.4447472095489502] 2016-12-18 17:59:25,079 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 2526 in on_voice_state_update: Voice state update for 258116983072096257/Phụng Đẹp Trai#8519 on Fshare-VOZ OFF HN/Bot-NHẠC-Radio -> [JOIN, CONNECT]
+[5.4453299045562744] 2016-12-18 17:59:25,080 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 2537 in on_voice_state_update: 258116983072096257/Phụng Đẹp Trai#8519 has joined Fshare-VOZ OFF HN/Bot-NHẠC-Radio
+[5.4462680816650391] 2016-12-18 17:59:25,081 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 376 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.6759452819824219] 2016-12-18 17:59:25,311 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 390 in join_voice_channel: (join_voice_channel) connecting...
+[6.9897553920745850] 2016-12-18 17:59:26,624 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 402 in join_voice_channel: (join_voice_channel) connection successful
+[6.9902393817901611] 2016-12-18 17:59:26,625 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 450 in get_voice_client: Connected in 1.7s
+[6.9903991222381592] 2016-12-18 17:59:26,625 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 451 in get_voice_client: Connected to Fshare-VOZ OFF HN/Bot-NHẠC-Radio
+[6.9910161495208740] 2016-12-18 17:59:26,626 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 784 in deserialize_queue: Deserializing queue for 249554704508518400
+[7.5407664775848389] 2016-12-18 17:59:27,176 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 542 in get_player: Created player via deserialization for server 249554704508518400 with 0 entries
+[7.5411641597747803] 2016-12-18 17:59:27,176 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 270 in _join_startup_channels: Joined Fshare-VOZ OFF HN/Bot-NHẠC-Radio
+[7.5685100555419922] 2016-12-18 17:59:27,203 - VOICEDEBUG - musicbot.player | In player.py::MainThread(139979969156864), line 313 in websocket_check: Starting websocket check loop for Fshare-VOZ OFF HN
+[12.0427062511444092] 2016-12-18 17:59:31,677 - INFO - musicbot.bot | In bot.py::MainThread(139979969156864), line 2357 in on_message: 214758223389917184/Thiên Phụng#6822: .play nhac khong loi hay nhat
+[12.7967021465301514] 2016-12-18 17:59:32,431 - INFO - musicbot.entry | In entry.py::MainThread(139979969156864), line 195 in _download: Download cached: https://www.youtube.com/watch?v=qNnFnZ4Wq9c
+[14.7963004112243652] 2016-12-18 17:59:34,431 - FFMPEG - musicbot.player | In player.py::MainThread(139979969156864), line 270 in _play: Creating player with options: -nostdin -vn audio_cache/youtube-qNnFnZ4Wq9c-Cho_n_ba_i_.play_Ten_ba_i_ha_t.m4a
+[14.8292906284332275] 2016-12-18 17:59:34,464 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 760 in serialize_queue: Serializing queue for 249554704508518400
+[15.4421937465667725] 2016-12-18 17:59:35,077 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 760 in serialize_queue: Serializing queue for 249554704508518400
+[15.4634728431701660] 2016-12-18 17:59:35,098 - INFO - musicbot.entry | In entry.py::MainThread(139979969156864), line 195 in _download: Download cached: https://www.youtube.com/watch?v=1UeO4cnZ5fY
+[19.1476786136627197] 2016-12-18 17:59:38,782 - FFMPEG - musicbot.player | In player.py::MainThread(139979969156864), line 270 in _play: Creating player with options: -nostdin -vn audio_cache/youtube-1UeO4cnZ5fY-Nh_ng_b_n_nh_c_Khong_L_i_Hay_Nh_t_M_i_Th_i_i_nhadatcaugiay.net.webm
+[19.1719694137573242] 2016-12-18 17:59:38,807 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 760 in serialize_queue: Serializing queue for 249554704508518400
+[19.1744768619537354] 2016-12-18 17:59:38,809 - DEBUG - musicbot.bot | In bot.py::MainThread(139979969156864), line 760 in serialize_queue: Serializing queue for 249554704508518400
